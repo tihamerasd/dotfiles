@@ -1,0 +1,70 @@
+theme
+	name Transpy
+	author nsf <no.smile.face@gmail.com>
+
+panel
+	position bottom
+	background bg.png
+
+launchbar
+        icon_size 24 24
+
+desktop_switcher
+	paint_replace
+	idle
+		left_corner lblack_l.png
+		left lblack_t.png
+		center lblack_t.png
+		right lblack_t.png
+		right_corner lblack_r.png
+		font DejaVuSans 9
+			color 153 153 153
+			offset 0 1
+	pressed
+		left_corner black_l.png
+		left black_t.png
+		center black_t.png
+		right black_t.png
+		right_corner black_r.png
+		font DejaVuSans condensed bold 11
+			color 0 100 0
+			offset 0 4
+
+taskbar
+	paint_replace
+	idle
+		left lblack_l.png
+		center lblack_t.png
+		right lblack_r.png
+		font DejaVuSans 10
+			color 153 153 153
+			align center
+			offset 6 1
+
+	pressed
+		left black_l.png
+		center black_t.png
+		right black_r.png
+		font DejaVuSans condensed bold 10
+			color 0 100 0
+			align center
+			offset 6 1
+
+	default_icon default_icon.png
+
+systray
+	icon_size 24 24
+		offset 0 1
+
+clock
+        font DejaVu Sans condensed bold 11
+                color 0 100 0
+                offset 0 0
+                shadow_offset 1 1
+                shadow_color 0 0 0
+                align center
+
+        time_format %D   %H:%M
+
+empty 3
+
