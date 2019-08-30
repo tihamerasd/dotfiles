@@ -1,11 +1,11 @@
-My artix linux with openrc desktop config
+<h1>My artix linux with openrc, herbsluftwm basics desktop config. </h1>
 
-Configured for very low system resources
+<h2>Configured for very low system resources. </h2>
 
--xterm
--herbsluftwm
--bmpanel2
--bash
--conky
--neofetch
+-xterm<br>
+-herbsluftwm<br>
+-bmpanel2<br>
+-bash<br>
+-conky<br>
+-neofetch<br>
 
